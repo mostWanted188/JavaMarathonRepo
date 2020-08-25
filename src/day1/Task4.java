@@ -5,7 +5,7 @@ public class Task4 {
         int age = 34;
         while(age <= 100){
             System.out.println("Мой возраст " + age);
-            age = age + 5;
+            age += 5;
         }
     }
 }
