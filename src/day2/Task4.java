@@ -7,14 +7,14 @@ public class Task4 {
         System.out.print("Введите значение х: ");
         Scanner sc = new Scanner(System.in);
         double x = sc.nextDouble();
-        double y = (x * x - 10)/(x + 7);
-        double y1 = (x + 3)*(x * x - 2);
+        double y;
         if(x >= 5){
-            System.out.printf("y = %.10f", y);
+            y = (x * x - 10)/(x + 7);
         } else if(x > -3 && x < 5){
-            System.out.printf("y = %.10f", y1);
+            y = (x + 3)*(x * x - 2);
         } else{
-            System.out.println(420);
+            y = 420;
         }
+        System.out.printf("y = %.10f", y);
     }
 }
