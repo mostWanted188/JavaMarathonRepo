@@ -9,11 +9,11 @@ public class Task3 {
             System.out.print("Введите через пробел делимое и делитель: ");
             double divident = sc.nextDouble();
             double divider = sc.nextDouble();
-            System.out.println(divident/divident);
             if(divider == 0) {
                 System.out.println("Деление на 0");
-                i = 0;
+                continue;
                 }
+            System.out.println(divident/divident);
         }
     }
 }
