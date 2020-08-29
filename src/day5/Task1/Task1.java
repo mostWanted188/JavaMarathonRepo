@@ -5,7 +5,7 @@ public class Task1 {
         Car mustang = new Car();
         mustang.setYear(1967);
         mustang.setColor("black");
-        mustang.setModel("Shelby GT500");
+        mustang.setModel("Shelby GT 500");
 
         System.out.println(mustang.getYear());
         System.out.println(mustang.getColor());
