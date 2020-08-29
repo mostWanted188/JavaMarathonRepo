@@ -13,7 +13,7 @@ public class Car {
 
     public void setYear(int yeaR) {
         if(yeaR <= 0) {
-            System.out.println("Задайте корректный номер модели");
+            System.out.println("Задайте корректный номер модели ");
         } else year = yeaR;
     }
     public int getYear(){
@@ -22,7 +22,7 @@ public class Car {
 
     public void setColor(String coloR){
         if(coloR.isEmpty()){
-            System.out.println("Задайте цвет");
+            System.out.println("Задайте цвет ");
         }else color = coloR;
     }
     public String getColor(){
@@ -31,7 +31,7 @@ public class Car {
 
     public void setModel(String modeL){
         if(modeL.isEmpty()){
-            System.out.println("Задайте модель");
+            System.out.println("Задайте модель ");
         }else model = modeL;
     }
     public String getModel(){
