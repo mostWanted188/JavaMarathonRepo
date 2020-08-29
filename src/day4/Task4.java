@@ -9,7 +9,7 @@ public class Task4 {
             numbers[i] = (int) (Math.random() * 101);
         }
         System.out.println(Arrays.toString(numbers));*/
-        
+
         int[] numbers = new int[100];
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = (int) (Math.random() * 10001);
