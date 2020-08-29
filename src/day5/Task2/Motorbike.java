@@ -9,5 +9,18 @@ public class Motorbike {
         this.year = year;
         this.color = color;
         this.model = model;
+        System.out.println("moto: " + year + " " + color + " "  + model);
     }
-}
+/*
+    public int getYear() {
+        return year;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public String getModel() {
+        return model;*/
+    }
+
